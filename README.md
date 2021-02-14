@@ -7,8 +7,14 @@ Today, the amount of public violence has increased dramatically. As much in high
 
 ## Dataset
 •	Collected raw surveillance videos from YouTube, sliced them into clips within 5s at 20 fps, and labeled each clip as Violent or Non-Violent Behavior。
-•	Dropped duplicated contents which appear in both training set and validation set.
+
 •	Finally we got 1600 clips and 160,000 frames as a new data set for real-world violent behavior detection under surveillance camera.
+
+### Download
+To download the released dataset, please:
+
+Send to ming.cheng@dukekunshan.edu.cn .And ask him to send you the Agreement Sheet, sign it and then send it back to him again 
+He will return an e-mail with download link to you as soon as possible.
 
 ## Flowchart : 
 The method consists of extracting a set of frames belonging to the video, sending them to a pretrained network called VGG16, obtaining the output of one of its final layers and from these outputs train another network architecture with a type of special neurons called LSTM. These neurons have memory and are able to analyze the temporal information of the video, if at any time they detect violence, it will be classified as a violent video.
