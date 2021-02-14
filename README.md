@@ -13,3 +13,11 @@ Today, the amount of public violence has increased dramatically. As much in high
 ## Flowchart : 
 The method consists of extracting a set of frames belonging to the video, sending them to a pretrained network called VGG16, obtaining the output of one of its final layers and from these outputs train another network architecture with a type of special neurons called LSTM. These neurons have memory and are able to analyze the temporal information of the video, if at any time they detect violence, it will be classified as a violent video.
 
+![](flowchart.JPG)
+
+## Problems
+Since all the videos are captured by surveillance cameras in public places, many of them may not have a good imaging quality due to dark environment, fast movement of object, lighting blur, etc.
+
+## recommendation
+I did not use all the data that I have because to train this model on a larger amount of data than this one needs super machine, and when training the model I noticed that the more data the amount >>> the more accurate the model. That is why it would be great to use a larger amount of data with a super computer
+This is why i see that the 70% accuracy is a satisfactory result .
