@@ -25,5 +25,6 @@ The method consists of extracting a set of frames belonging to the video, sendin
 Since all the videos are captured by surveillance cameras in public places, many of them may not have a good imaging quality due to dark environment, fast movement of object, lighting blur, etc.
 
 ## recommendation
-I did not use all the data that I have because to train this model on a larger amount of data than this one needs super machine, and when training the model I noticed that the more data the amount >>> the more accurate the model. That is why it would be great to use a larger amount of data with a super computer
-This is why i see that the 70% accuracy is a satisfactory result .
+I did not use all the data that I have because to train this model on a larger amount of data than this one needs super machine, and when training the model I noticed that the more data the more accurate the model. That is why it would be great to use a larger amount of data with a super computer.
+In the end, our model provide an accuracy of  **74.58 %** on the **training** set and **76.25 %** on the **validation** set.
+Because of the dilemmas i mentioned. I think this is a satisfying result .
