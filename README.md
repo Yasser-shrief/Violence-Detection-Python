@@ -4,6 +4,12 @@
 
 Today, the amount of public violence has increased dramatically. As much in high schools as in the street. This has resulted in the ubiquitous use of surveillance cameras. This has helped the authorities to identify these events and take the necessary measures. But almost all systems today require the human-inspection of these videos to identify such events, which is virtually inefficient. It is therefore necessary to have such a practical system that can automatically monitor and identify the surveillance videos. The development of various deep learning techniques, thanks to the availability of large data sets and computational resources, has resulted in a historic change in the community of computer vision. Various techniques have been developed to address problems such as object detection, recognition, tracking, action recognition, legend generation, etc. However, despite recent developments in deep learning, very few techniques based on deep learning have been proposed to address the problem of detecting violence from videos.
 
+![](ezgif.com-gif-maker.gif)
+
+
+
+
+
 
 ## Dataset
 •	Collected raw surveillance videos from YouTube, sliced them into clips within 5s at 20 fps, and labeled each clip as Violent or Non-Violent Behavior。
@@ -28,3 +34,5 @@ Since all the videos are captured by surveillance cameras in public places, many
 I did not use all the data that I have because to train this model on a larger amount of data than this one needs super machine, and when training the model I noticed that the more data the more accurate the model. That is why it would be great to use a larger amount of data with a super computer.
 In the end, our model provide an accuracy of  **74.58 %** on the **training** set and **76.25 %** on the **validation** set.
 Because of the dilemmas i mentioned. I think this is a satisfying result .
+
+![](20210318_145808.gif)
