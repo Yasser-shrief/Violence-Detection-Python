@@ -31,6 +31,6 @@ Since all the videos are captured by surveillance cameras in public places, many
 ## recommendation
 I did not use all the data that I have because to train this model on a larger amount of data than this one needs super machine, and when training the model I noticed that the more data the more accurate the model. That is why it would be great to use a larger amount of data with a super computer.
 In the end, our model provide an accuracy of  **74.58 %** on the **training** set and **76.25 %** on the **validation** set.
-Because of the dilemmas i mentioned. I think this is a satisfying result .
+Because of the dilemmas i mentioned.
 
 ![](20210318_145808.gif)
